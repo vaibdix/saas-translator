@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './Logo'
+import { DarkModeToggle } from './DarkModeToggle'
 
 function Header() {
   return (
@@ -13,7 +14,8 @@ function Header() {
               )*/}
 
               {/* dark mode toggle */}
-
+              <DarkModeToggle />
+              
               {/* user button */}
             </div>
         </nav>
